@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include connecting_warehouse_branch_company_address *.css
+recursive-include connecting_warehouse_branch_company_address *.csv
+recursive-include connecting_warehouse_branch_company_address *.html
+recursive-include connecting_warehouse_branch_company_address *.ico
+recursive-include connecting_warehouse_branch_company_address *.js
+recursive-include connecting_warehouse_branch_company_address *.json
+recursive-include connecting_warehouse_branch_company_address *.md
+recursive-include connecting_warehouse_branch_company_address *.png
+recursive-include connecting_warehouse_branch_company_address *.py
+recursive-include connecting_warehouse_branch_company_address *.svg
+recursive-include connecting_warehouse_branch_company_address *.txt
+recursive-exclude connecting_warehouse_branch_company_address *.pyc
