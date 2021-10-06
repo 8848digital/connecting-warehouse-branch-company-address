@@ -10,29 +10,27 @@ app_email = "nirali@ascratech.com"
 app_license = "GPL 3.0"
 
 doctype_js = {
-	"Branch": "public/js/doctype_js/branch.js",
-	"Warehouse": "public/js/doctype_js/warehouse.js",
-	"Purchase Order": "public/js/doctype_js/purchase_common_warehouse_filter.js",
-	"Purchase Receipt": "public/js/doctype_js/purchase_common_warehouse_filter.js",
-	"Purchase Invoice": "public/js/doctype_js/purchase_common_warehouse_filter.js",
-	"Sales Order": "public/js/doctype_js/sales_common_warehouse_filter.js",
-	"Sales Invoice": "public/js/doctype_js/sales_common_warehouse_filter.js",
-	"Delivery Note": "public/js/doctype_js/delivery_note.js",
+	"Branch"           : "public/js/doctype_js/branch.js",
+	"Warehouse"        : "public/js/doctype_js/warehouse.js",
+	"Purchase Order"   : "public/js/doctype_js/purchase_common_warehouse_filter.js",
+	"Purchase Receipt" : "public/js/doctype_js/purchase_common_warehouse_filter.js",
+	"Purchase Invoice" : "public/js/doctype_js/purchase_common_warehouse_filter.js",
+	"Sales Order"      : "public/js/doctype_js/sales_common_warehouse_filter.js",
+	"Sales Invoice"    : "public/js/doctype_js/sales_common_warehouse_filter.js",
+	"Delivery Note"    : "public/js/doctype_js/delivery_note.js",
 }
+
 fixtures = [
-   
-    {"dt": "Custom Field", "filters": [
-        [
-            "name", "in", [
-				"Warehouse-company_address",
-                "Company-select_warehouse_based_on",
-				"Branch-company",
-				"Branch-column_break_2",
-				"Branch-company_address",
-				"Branch-company_address_display"
-            ]
-        ]
-    ]}
+  {
+    "dt": "Custom Field", 
+    "filters": [["name", "in", [ "Warehouse-company_address",
+                 								"Company-select_warehouse_based_on",
+	 															"Branch-company",
+																"Branch-column_break_2",
+																"Branch-company_address",
+																"Branch-company_address_display"]
+        			]]
+  }
 ]
 # Includes in <head>
 # ------------------
