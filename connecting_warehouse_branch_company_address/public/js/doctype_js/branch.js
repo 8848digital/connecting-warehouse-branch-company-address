@@ -1,6 +1,5 @@
 frappe.ui.form.on('Branch', {
     setup: function(frm) {
-        console.log('call')
 		frm.set_query('company_address', function(doc) {
             if(!doc.company) {
                 frappe.throw(__('Please set Company'));
