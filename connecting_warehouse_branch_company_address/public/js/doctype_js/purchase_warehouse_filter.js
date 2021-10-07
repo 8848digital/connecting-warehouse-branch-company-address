@@ -6,7 +6,13 @@ frappe.ui.form.on(cur_frm.doc.doctype, {
   company:function(frm){
     frm.trigger("set_warehouse_filter")
   },
-
+  
+  billing_address:function(frm){
+    frm.trigger("set_warehouse_filter")
+  },
+  shipping_address:function(frm){
+    frm.trigger("set_warehouse_filter")
+  },
   set_warehouse_filter: function(frm) {
     setTimeout(function(){
       frappe.db.get_value("Company",frm.doc.company,'select_warehouse_based_on',function(company) {
