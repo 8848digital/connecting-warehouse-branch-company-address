@@ -4,6 +4,7 @@ frappe.ui.form.on('Warehouse', {
 			if(!doc.company) {
 				frappe.throw(__('Please set Company'));
 			}
+
 			return {
 				query: 'frappe.contacts.doctype.address.address.address_query',
 				filters: {

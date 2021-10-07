@@ -12,11 +12,11 @@ app_license = "GPL 3.0"
 doctype_js = {
 	"Branch"           : "public/js/doctype_js/branch.js",
 	"Warehouse"        : "public/js/doctype_js/warehouse.js",
-	"Purchase Order"   : "public/js/doctype_js/purchase_common_warehouse_filter.js",
-	"Purchase Receipt" : "public/js/doctype_js/purchase_common_warehouse_filter.js",
-	"Purchase Invoice" : "public/js/doctype_js/purchase_common_warehouse_filter.js",
-	"Sales Order"      : "public/js/doctype_js/sales_common_warehouse_filter.js",
-	"Sales Invoice"    : "public/js/doctype_js/sales_common_warehouse_filter.js",
+	"Purchase Order"   : "public/js/doctype_js/purchase_warehouse_filter.js",
+	"Purchase Receipt" : "public/js/doctype_js/purchase_warehouse_filter.js",
+	"Purchase Invoice" : "public/js/doctype_js/purchase_warehouse_filter.js",
+	"Sales Order"      : "public/js/doctype_js/sales_warehouse_filter.js",
+	"Sales Invoice"    : "public/js/doctype_js/sales_warehouse_filter.js",
 	"Delivery Note"    : "public/js/doctype_js/delivery_note.js",
 }
 
